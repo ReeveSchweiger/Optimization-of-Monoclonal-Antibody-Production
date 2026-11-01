@@ -1,0 +1,2 @@
+Model,Polynomial Degree,Lag Order,RMSE [mg/L],Mean Absolute Error [mg/L],Mean Residual [mg/L],Residual Standard Deviation [mg/L]
+Polynomial Regression,2,2,0.0544249011670024,0.04235572250565143,-0.0035468373456425243,0.05432011433944289

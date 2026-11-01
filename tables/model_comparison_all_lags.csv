@@ -1,0 +1,11 @@
+Model,Lag Order,Parameters,RMSE
+poly,2,{'polynomialfeatures__degree': 2},0.05434744438566099
+poly,3,{'polynomialfeatures__degree': 2},0.05582396826273742
+poly,1,{'polynomialfeatures__degree': 2},0.05604262468156351
+poly,4,{'polynomialfeatures__degree': 2},0.06248252630983405
+poly,5,{'polynomialfeatures__degree': 2},0.07288554254378998
+knn,1,"{'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__weights': 'uniform'}",0.12235187823981504
+knn,2,"{'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__weights': 'uniform'}",0.12470887234724182
+knn,3,"{'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__weights': 'uniform'}",0.12707297131980175
+knn,4,"{'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__weights': 'uniform'}",0.12940944480715053
+knn,5,"{'kneighborsregressor__n_neighbors': 5, 'kneighborsregressor__weights': 'uniform'}",0.12946886615118677
