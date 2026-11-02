@@ -6,12 +6,12 @@ import matplotlib.pyplot as plt
 
 from scipy import stats
 from matplotlib.ticker import MultipleLocator
-from sklearn.model_selection import GridSearchCV, GroupKFold, cross_val_predict
+from sklearn.model_selection import GroupKFold, cross_val_predict
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.neighbors import KNeighborsRegressor
-from sklearn.metrics import root_mean_squared_error, make_scorer
+from sklearn.metrics import root_mean_squared_error
 from src.functions import *
 from src.constants import *
 
